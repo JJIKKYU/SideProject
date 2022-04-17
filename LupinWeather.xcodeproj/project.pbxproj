@@ -21,6 +21,7 @@
 		4E190645280AAB8500C52EE6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E190644280AAB8500C52EE6 /* LocationManager.swift */; };
 		4E190647280AABA900C52EE6 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E190646280AABA900C52EE6 /* WeatherManager.swift */; };
 		4E7E0D45280ABE6F0045E50C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E0D44280ABE6F0045E50C /* LoadingView.swift */; };
+		98A2BDA9280BCF6E00C1FB92 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98A2BDA8280BCF6E00C1FB92 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		4E190644280AAB8500C52EE6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		4E190646280AABA900C52EE6 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		4E7E0D44280ABE6F0045E50C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		98A2BDA8280BCF6E00C1FB92 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		4E1905E827F3061C00C52EE6 /* LupinWeather */ = {
 			isa = PBXGroup;
 			children = (
+				98A2BDA4280BCF2600C1FB92 /* Platform */,
 				4E190643280AAB6F00C52EE6 /* Manager */,
 				4E1905FA27F3068F00C52EE6 /* Views */,
 				4E1905E927F3061C00C52EE6 /* LupinWeatherApp.swift */,
@@ -113,6 +116,38 @@
 				4E190646280AABA900C52EE6 /* WeatherManager.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		98A2BDA4280BCF2600C1FB92 /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				98A2BDA7280BCF4600C1FB92 /* Localizations */,
+				98A2BDA6280BCF4100C1FB92 /* Icons */,
+				98A2BDA5280BCF3E00C1FB92 /* Fonts */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		98A2BDA5280BCF3E00C1FB92 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		98A2BDA6280BCF4100C1FB92 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		98A2BDA7280BCF4600C1FB92 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				98A2BDA8280BCF6E00C1FB92 /* Localizable.strings */,
+			);
+			path = Localizations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E1905F127F3061E00C52EE6 /* Preview Assets.xcassets in Resources */,
+				98A2BDA9280BCF6E00C1FB92 /* Localizable.strings in Resources */,
 				4E1905EE27F3061E00C52EE6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,11 +358,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = LupinWeather/LupinWeather.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LupinWeather/Preview Content\"";
-				DEVELOPMENT_TEAM = B44YL23J9X;
+				DEVELOPMENT_TEAM = V237TD2AXA;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -338,6 +375,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.seosieve.LupinWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -349,11 +387,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = LupinWeather/LupinWeather.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LupinWeather/Preview Content\"";
-				DEVELOPMENT_TEAM = B44YL23J9X;
+				DEVELOPMENT_TEAM = V237TD2AXA;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -365,6 +404,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.seosieve.LupinWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
