@@ -31,6 +31,7 @@
 		FC25720728209F5700ECE956 /* SUIT-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC2571FE28209F5700ECE956 /* SUIT-SemiBold.otf */; };
 		FC25720828209F5700ECE956 /* SUIT-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC2571FF28209F5700ECE956 /* SUIT-Medium.otf */; };
 		FC25720928209F5700ECE956 /* SUIT-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC25720028209F5700ECE956 /* SUIT-ExtraBold.otf */; };
+		FC25720D2820A04100ECE956 /* Text+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC25720C2820A04100ECE956 /* Text+Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		FC2571FF28209F5700ECE956 /* SUIT-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Medium.otf"; sourceTree = "<group>"; };
 		FC25720028209F5700ECE956 /* SUIT-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-ExtraBold.otf"; sourceTree = "<group>"; };
 		FC25720A28209F8400ECE956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FC25720C2820A04100ECE956 /* Text+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Util.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		98A2BDA4280BCF2600C1FB92 /* Platform */ = {
 			isa = PBXGroup;
 			children = (
+				FC25720B2820A03600ECE956 /* Util */,
 				FC2571F728209F5700ECE956 /* Fonts */,
 				98A2BDA7280BCF4600C1FB92 /* Localizations */,
 			);
@@ -169,6 +172,14 @@
 				FC25720028209F5700ECE956 /* SUIT-ExtraBold.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FC25720B2820A03600ECE956 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FC25720C2820A04100ECE956 /* Text+Util.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC25720D2820A04100ECE956 /* Text+Util.swift in Sources */,
 				4E1905EC27F3061C00C52EE6 /* ContentView.swift in Sources */,
 				4E1905F927F3065B00C52EE6 /* Extensions.swift in Sources */,
 				4E190645280AAB8500C52EE6 /* LocationManager.swift in Sources */,
