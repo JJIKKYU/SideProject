@@ -22,6 +22,15 @@
 		4E190647280AABA900C52EE6 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E190646280AABA900C52EE6 /* WeatherManager.swift */; };
 		4E7E0D45280ABE6F0045E50C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7E0D44280ABE6F0045E50C /* LoadingView.swift */; };
 		98A2BDA9280BCF6E00C1FB92 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98A2BDA8280BCF6E00C1FB92 /* Localizable.strings */; };
+		FC25720128209F5700ECE956 /* SUIT-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC2571F828209F5700ECE956 /* SUIT-Thin.otf */; };
+		FC25720228209F5700ECE956 /* SUIT-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC2571F928209F5700ECE956 /* SUIT-Regular.otf */; };
+		FC25720328209F5700ECE956 /* SUIT-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC2571FA28209F5700ECE956 /* SUIT-Heavy.otf */; };
+		FC25720428209F5700ECE956 /* SUIT-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC2571FB28209F5700ECE956 /* SUIT-Bold.otf */; };
+		FC25720528209F5700ECE956 /* SUIT-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC2571FC28209F5700ECE956 /* SUIT-Light.otf */; };
+		FC25720628209F5700ECE956 /* SUIT-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC2571FD28209F5700ECE956 /* SUIT-ExtraLight.otf */; };
+		FC25720728209F5700ECE956 /* SUIT-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC2571FE28209F5700ECE956 /* SUIT-SemiBold.otf */; };
+		FC25720828209F5700ECE956 /* SUIT-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC2571FF28209F5700ECE956 /* SUIT-Medium.otf */; };
+		FC25720928209F5700ECE956 /* SUIT-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC25720028209F5700ECE956 /* SUIT-ExtraBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +51,16 @@
 		4E190646280AABA900C52EE6 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		4E7E0D44280ABE6F0045E50C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		98A2BDA8280BCF6E00C1FB92 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FC2571F828209F5700ECE956 /* SUIT-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Thin.otf"; sourceTree = "<group>"; };
+		FC2571F928209F5700ECE956 /* SUIT-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Regular.otf"; sourceTree = "<group>"; };
+		FC2571FA28209F5700ECE956 /* SUIT-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Heavy.otf"; sourceTree = "<group>"; };
+		FC2571FB28209F5700ECE956 /* SUIT-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Bold.otf"; sourceTree = "<group>"; };
+		FC2571FC28209F5700ECE956 /* SUIT-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Light.otf"; sourceTree = "<group>"; };
+		FC2571FD28209F5700ECE956 /* SUIT-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-ExtraLight.otf"; sourceTree = "<group>"; };
+		FC2571FE28209F5700ECE956 /* SUIT-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-SemiBold.otf"; sourceTree = "<group>"; };
+		FC2571FF28209F5700ECE956 /* SUIT-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Medium.otf"; sourceTree = "<group>"; };
+		FC25720028209F5700ECE956 /* SUIT-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-ExtraBold.otf"; sourceTree = "<group>"; };
+		FC25720A28209F8400ECE956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +93,7 @@
 		4E1905E827F3061C00C52EE6 /* LupinWeather */ = {
 			isa = PBXGroup;
 			children = (
+				FC25720A28209F8400ECE956 /* Info.plist */,
 				98A2BDA4280BCF2600C1FB92 /* Platform */,
 				4E190643280AAB6F00C52EE6 /* Manager */,
 				4E1905FA27F3068F00C52EE6 /* Views */,
@@ -121,25 +141,10 @@
 		98A2BDA4280BCF2600C1FB92 /* Platform */ = {
 			isa = PBXGroup;
 			children = (
+				FC2571F728209F5700ECE956 /* Fonts */,
 				98A2BDA7280BCF4600C1FB92 /* Localizations */,
-				98A2BDA6280BCF4100C1FB92 /* Icons */,
-				98A2BDA5280BCF3E00C1FB92 /* Fonts */,
 			);
 			path = Platform;
-			sourceTree = "<group>";
-		};
-		98A2BDA5280BCF3E00C1FB92 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		98A2BDA6280BCF4100C1FB92 /* Icons */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Icons;
 			sourceTree = "<group>";
 		};
 		98A2BDA7280BCF4600C1FB92 /* Localizations */ = {
@@ -148,6 +153,22 @@
 				98A2BDA8280BCF6E00C1FB92 /* Localizable.strings */,
 			);
 			path = Localizations;
+			sourceTree = "<group>";
+		};
+		FC2571F728209F5700ECE956 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FC2571F828209F5700ECE956 /* SUIT-Thin.otf */,
+				FC2571F928209F5700ECE956 /* SUIT-Regular.otf */,
+				FC2571FA28209F5700ECE956 /* SUIT-Heavy.otf */,
+				FC2571FB28209F5700ECE956 /* SUIT-Bold.otf */,
+				FC2571FC28209F5700ECE956 /* SUIT-Light.otf */,
+				FC2571FD28209F5700ECE956 /* SUIT-ExtraLight.otf */,
+				FC2571FE28209F5700ECE956 /* SUIT-SemiBold.otf */,
+				FC2571FF28209F5700ECE956 /* SUIT-Medium.otf */,
+				FC25720028209F5700ECE956 /* SUIT-ExtraBold.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,9 +229,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC25720828209F5700ECE956 /* SUIT-Medium.otf in Resources */,
+				FC25720328209F5700ECE956 /* SUIT-Heavy.otf in Resources */,
+				FC25720628209F5700ECE956 /* SUIT-ExtraLight.otf in Resources */,
 				4E1905F127F3061E00C52EE6 /* Preview Assets.xcassets in Resources */,
+				FC25720928209F5700ECE956 /* SUIT-ExtraBold.otf in Resources */,
+				FC25720728209F5700ECE956 /* SUIT-SemiBold.otf in Resources */,
+				FC25720128209F5700ECE956 /* SUIT-Thin.otf in Resources */,
 				98A2BDA9280BCF6E00C1FB92 /* Localizable.strings in Resources */,
+				FC25720228209F5700ECE956 /* SUIT-Regular.otf in Resources */,
+				FC25720428209F5700ECE956 /* SUIT-Bold.otf in Resources */,
 				4E1905EE27F3061E00C52EE6 /* Assets.xcassets in Resources */,
+				FC25720528209F5700ECE956 /* SUIT-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,10 +393,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LupinWeather/Preview Content\"";
-				DEVELOPMENT_TEAM = V237TD2AXA;
+				DEVELOPMENT_TEAM = 7Q66C27WPG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LupinWeather/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -392,10 +423,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LupinWeather/Preview Content\"";
-				DEVELOPMENT_TEAM = V237TD2AXA;
+				DEVELOPMENT_TEAM = 7Q66C27WPG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LupinWeather/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
